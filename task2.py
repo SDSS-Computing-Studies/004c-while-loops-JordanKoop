@@ -17,22 +17,17 @@ Access denied
 """
 
 username = ""
-
-
-
-while username != "admin":
-    username = input("What is your username?")
-    if username!= "admin":
-        print(" Access Denied")
-
-print("Correct! What is your Password?")
-
-
 password = ""
 
-while password != "12345":
-    password = input("What is your Password?")
+while username != "admin":
+    while password != "12345":
+        username = input("What is your username?")
+        password = input("What is your password?")
+    if username!= "admin":  
+        print("Access denied")
     if password!= "12345":
-        print("Access Denied")
+        print("Access denied")
 
-print("Access Granted, Welcome back Mr. Kupillas")
+print("Access granted")
+
+

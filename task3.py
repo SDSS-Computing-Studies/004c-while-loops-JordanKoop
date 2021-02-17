@@ -20,3 +20,4 @@ That is an even integer
 
 """
 
+float
