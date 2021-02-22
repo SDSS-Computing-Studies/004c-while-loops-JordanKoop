@@ -16,3 +16,15 @@ Example:
 10
 ...
 """
+import time
+import random
+
+count = 2
+
+while True:
+    #random.random() creates a random value between 0 and 1
+    print("2")
+    delay = random.random() + 2
+    count = count + 2
+    if count > 20:
+        break
